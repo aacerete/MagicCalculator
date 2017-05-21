@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="ButtonCalc">
+        <item name="fontPath">fonts/SanFranciscoDisplay-Ultralight.otf</item>
+        <item name="android:textSize">40dp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="ButtonModes" parent="ButtonCalc">
+        <item name="android:background">@drawable/btn_modes</item>
+        <item name="colorButtonNormal">@color/ButtonMode</item>
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:minWidth">0dp</item>
+    </style>
+
+    <style name="ButtonOps" parent="ButtonCalc">
+        <item name="android:background">@drawable/btn_ops</item>
+        <item name="colorButtonNormal">@color/ButtonOp</item>
+        <item name="android:textColor">@color/White</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:minWidth">0dp</item>
+    </style>
+
+    <style name="ButtonNums" parent="ButtonCalc">
+        <item name="android:background">@drawable/btn_nums</item>
+        <item name="colorButtonNormal">@color/ButtonNum</item>
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:minWidth">0dp</item>
+    </style>
+
+</resources>

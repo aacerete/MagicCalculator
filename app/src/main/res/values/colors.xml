@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="TextViewBackground">#1f1f1f</color>
+    <color name="ButtonMode">#C8C9CB</color>
+    <color name="ButtonNum">#D4D5D9</color>
+    <color name="ButtonOp">#F78F20</color>
+    <color name="White">#FFF</color>
+    <color name="Black">#000</color>
+    <color name="Grey">#312e2e</color>
+</resources>
