@@ -16,6 +16,13 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+        minified.initWith(buildTypes.debug)
+        minified {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), "proguard-rules.pro"
+            testProguardFile "test-proguard-rules.pro"
+            testCoverageEnabled true
+        }
     }
 }
 
@@ -29,5 +36,7 @@ dependencies {
     compile 'com.android.support.constraint:constraint-layout:1.0.1'
     compile 'me.grantland:autofittextview:0.2.+'
     compile 'uk.co.chrisjenx:calligraphy:2.3.0'
+    compile 'com.faendir.rhino:rhino-android:1.4'
+    compile 'com.afollestad.material-dialogs:core:0.9.4.5'
     testCompile 'junit:junit:4.12'
 }

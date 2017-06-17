@@ -84,12 +84,28 @@
         android:layout_marginRight="0dp"
         android:layout_marginTop="0dp"
         android:text="C"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/guideline6"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toLeftOf="@+id/guideline2"
         app:layout_constraintTop_toTopOf="@+id/guideline"
         app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/markbtnC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="54dp"
+        android:elevation="2dp"
+        android:keepScreenOn="false"
+        android:text="·"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="30sp"
+        android:visibility="visible"
+        app:layout_constraintRight_toLeftOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="@+id/guideline10" />
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline2"
@@ -200,7 +216,7 @@
         android:layout_marginLeft="0dp"
         android:layout_marginRight="0dp"
         android:layout_marginTop="0dp"
-        android:text=","
+        android:text="."
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="@+id/guideline3"
@@ -388,6 +404,21 @@
         app:layout_constraintTop_toTopOf="@+id/guideline"
         app:layout_constraintVertical_bias="0.0" />
 
+    <TextView
+        android:id="@+id/markbtnOperator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="54dp"
+        android:elevation="2dp"
+        android:keepScreenOn="false"
+        android:text="·"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="30sp"
+        android:visibility="visible"
+        app:layout_constraintTop_toTopOf="@+id/guideline10"
+        app:layout_constraintRight_toLeftOf="@+id/guideline3" />
+
     <Button
         android:id="@+id/btnPercentage"
         style="@style/ButtonModes"
@@ -404,6 +435,21 @@
         app:layout_constraintRight_toLeftOf="@+id/guideline5"
         app:layout_constraintTop_toTopOf="@+id/guideline"
         app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/markbtnPercentage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="54dp"
+        android:elevation="2dp"
+        android:keepScreenOn="false"
+        android:text="·"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="30sp"
+        android:visibility="visible"
+        app:layout_constraintRight_toLeftOf="@+id/guideline5"
+        app:layout_constraintTop_toTopOf="@+id/guideline10" />
 
     <Button
         android:id="@+id/btnDivisor"

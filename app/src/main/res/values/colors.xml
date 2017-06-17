@@ -2,7 +2,7 @@
 <resources>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccent">#ff4081</color>
     <color name="TextViewBackground">#1f1f1f</color>
     <color name="ButtonMode">#C8C9CB</color>
     <color name="ButtonNum">#D4D5D9</color>
